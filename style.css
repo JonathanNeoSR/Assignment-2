@@ -6,7 +6,7 @@
   body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100vh;
-    background-image: url(img/cloudy.jpeg);
+    background-image: url(cloudy.jpeg);
     overflow: hidden;
     background-repeat: no-repeat;
     background-size:cover;
