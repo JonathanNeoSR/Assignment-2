@@ -72,13 +72,13 @@ function displayResults (weather){
 
   
   if(weather_el.textContent == "Clouds"){
-    document.body.style.backgroundImage = 'url("cloudy.jpeg")';
+    document.body.style.backgroundImage = 'url("img/cloudy.jpeg")';
   }else if(weather_el.textContent == "Clear"){
-    document.body.style.backgroundImage = 'url("clear.jpg")';
+    document.body.style.backgroundImage = 'url("img/clear.jpg")';
   }else if(weather_el.textContent == "Rain"){
-    document.body.style.backgroundImage = 'url("rainy.jpg")';
+    document.body.style.backgroundImage = 'url("img/rainy.jpg")';
   }else if(weather_el.textContent == "Thunderstorm"){
-    document.body.style.backgroundImage = 'url("storm.jpeg")';
+    document.body.style.backgroundImage = 'url("img/storm.jpeg")';
   }
 
 }
