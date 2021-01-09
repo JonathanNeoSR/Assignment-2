@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    background-image: url(img/cloudy.jpeg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .container{
+    width:100vh;
+    margin: 20px auto;
+    background-color: rgb(252, 141, 141,0.7);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .input{
+    width:100%;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  .container>*{
+    margin-bottom: 20px;
+  }
+  
+  .text-container{
+    line-height: 2rem;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(219, 19, 62, 0.6);
+  }
+  
+  .location{
+    font-weight: bold;
+    color: white;
+  }
+  
+  .info{
+    color: white;
+  }
+  
+  .temp{
+    font-size: 2.0rem;
+    text-shadow: 5px 4px rgb(155, 3, 3);
+  }
+  .temp-diff{
+    font-size: 1rem;
+  }
+  
+  .row{
+    margin-left:20px;
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .boxes{
+    width:100px;
+    margin-bottom: 50px;
+    background: #ffff;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+  }
+  
+  .forecastday{
+    text-align: center;
+    padding: 10px 10px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: #fff;
+  }
+  
+  
